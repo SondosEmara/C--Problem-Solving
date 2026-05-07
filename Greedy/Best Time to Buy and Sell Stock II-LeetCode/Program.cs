@@ -6,21 +6,18 @@
         {
             return 0;
         }
-        
+        var totalProfit = 0;
 
-        int sellValue = -1;
-        int buyValue = prices[0];
 
-        for (int i = 1; i < prices.Length - 1; i++)
+        for (int i = 1; i < prices.Length; i++)
         {
-            buyValue = Math.Min(buyValue, prices[i]);
-            if (prices[i + 1] >= buyValue && prices[i + 1] >= sellValue)
-            {
-                sellValue = prices[i + 1];
+             if (prices[i] > prices[i - 1]) 
+             {
+                totalProfit += prices[i] - prices[i - 1];
             }
+
         }
-        var profit = sellValue - buyValue;
-        return (profit <= 0) ? 0 : profit;
+        return totalProfit;
     }
 
 

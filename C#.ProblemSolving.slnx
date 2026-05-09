@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Greedy/">
+    <Project Path="Gas Station-LeetCode/Gas Station-LeetCode.csproj" Id="ef7c761d-5e46-4e3d-adb8-e6593a2c737b" />
     <Project Path="Greedy/Best Time to Buy and Sell Stock II-LeetCode/Best Time to Buy and Sell Stock II-LeetCode.csproj" />
   </Folder>
 </Solution>

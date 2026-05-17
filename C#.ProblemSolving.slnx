@@ -2,5 +2,6 @@
   <Folder Name="/Greedy/">
     <Project Path="Gas Station-LeetCode/Gas Station-LeetCode.csproj" Id="ef7c761d-5e46-4e3d-adb8-e6593a2c737b" />
     <Project Path="Greedy/Best Time to Buy and Sell Stock II-LeetCode/Best Time to Buy and Sell Stock II-LeetCode.csproj" />
+    <Project Path="Remove Duplicate Letters-Leet Code/Remove Duplicate Letters-Leet Code.csproj" Id="bd9ea86d-71c2-472e-9b3f-828e91fb0476" />
   </Folder>
 </Solution>
